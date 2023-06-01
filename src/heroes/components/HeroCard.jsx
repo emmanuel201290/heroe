@@ -6,6 +6,7 @@ export const HeroCard = ({
     id,superhero,publisher,alter_ego,first_appearance,characters
 }) => {
 
+  console.log('estamos creado la tarjeta')
     const heroImageUrl = `/assets/${id}.jpg`
     const characterByHero = <p>{characters}</p>
 
